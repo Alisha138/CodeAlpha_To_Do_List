@@ -1,10 +1,11 @@
-# CodeAlpha_To_Do_List
+# Cognorise_To_Do_List
 # Overview
-A simple To-Do List application built with JavaScript, HTML, and CSS. This application allows users to add and remove tasks efficiently. It utilizes local storage to persist tasks across page reloads.
+A simple To-Do List application built with JavaScript, HTML, and CSS. This application allows users to add, edit and remove tasks efficiently. It utilizes local storage to persist tasks across page reloads.
 # Features
-- Add new tasks.
-- Remove tasks from the list.
-- Persist tasks in the browser's local storage.
+- Add new tasks
+- Edit ewisting tasks
+- Remove tasks from the list
+- Taka are stored in local storage, so they persist even after refreshing the page
 - Responsive design for mobile and desktop views.
 # Technologies Used
 - HTML for creating the structure of the to do list.
@@ -18,11 +19,12 @@ To run this project locally, follow these steps:
    git clone https://github.com/Alisha138/CodeAlpha_To_Do_List
 2. Navigate to the project directory:
    ```bash
-   cd To_Do_List
+   cd Cognorise_To_Do_List
 3. Open the HTML file: Open index.html in your web browser.
 # Usage
 1. Adding a Task: Enter the task title and description in the input fields and click the "Add Task" button.
-2. Removing a Task: Click the "Remove" button next to the task you want to delete
+2. Editing a Task: Click the "edit" button next to the task you want to modify.
+3. Removing a Task: Click the "Remove" button next to the task you want to delete.
 # Code Overview
 The main functionalities of the application are implemented in the script.js file. Key functions include:
 - getTasks(): Retrieves the list of tasks from local storage.
@@ -30,6 +32,6 @@ The main functionalities of the application are implemented in the script.js fil
 - deleteTask( ): Removes a task and updates local storage.
 - filterTasks(): Filters tasks based on their completion status.
 # Screenshot
-![Screenshot 2024-11-23 033410](https://github.com/user-attachments/assets/1ae015cc-36b1-4888-9e5c-c9d30db51942)
+![Screenshot 2024-11-29 105734](https://github.com/user-attachments/assets/e16d88ec-b25d-4b31-ae62-d697121a8035)
 # Contributing
 Contributions are welcome! If you have any ideas or suggestions, feel free to fork the repository and create a pull request.
